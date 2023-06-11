@@ -1,0 +1,33 @@
+{
+  "name": "itracers-admin",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@types/lodash": "^4.14.195",
+    "@types/prismjs": "^1.26.0",
+    "lodash": "^4.17.21",
+    "prismjs": "^1.29.0",
+    "prop-types": "^15.8.1",
+    "ra-data-simple-rest": "^4.9.2",
+    "react": "^18.2.0",
+    "react-admin": "^4.9.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.7",
+    "react-simple-code-editor": "^0.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  }
+}
